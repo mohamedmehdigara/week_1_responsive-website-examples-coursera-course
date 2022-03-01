@@ -7,3 +7,6 @@ Router.route('/', function () {
 Router.route('/news', function () {
   this.render('news');
 });
+Router.route('/share', function () {
+  this.render('share');
+});
